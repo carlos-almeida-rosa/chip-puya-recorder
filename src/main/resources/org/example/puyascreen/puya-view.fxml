@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<?import javafx.scene.control.Button?>
+<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.example.puyascreen.PuyaController">
+    <padding>
+        <Insets bottom="10.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label fx:id="writeInformationText1"/>
+    <Button text="Gravar chip 1" onAction="#onWriteButton1Click"/>
+
+    <Label fx:id="writeInformationText2"/>
+    <Button text="Gravar chip 2" onAction="#onWriteButton2Click"/>
+
+    <Label fx:id="eraseInformationText1"/>
+    <Button text="Apagar chip 1" onAction="#onEraseButton1Click"/>
+
+    <Label fx:id="eraseInformationText2"/>
+    <Button text="Apagar chip 2" onAction="#onEraseButton2Click"/>
+
+    <Button text="Cancelar gravação chip 1" onAction="#onCancelButton1Click"/>
+
+    <Button text="Cancelar gravação chip 2" onAction="#onCancelButton2Click"/>
+
+</VBox>
